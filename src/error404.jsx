@@ -14,7 +14,6 @@ import './all.css';
 
 const DivOne = styled.div`
     width: 100%;
-    padding: 20rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,6 +21,11 @@ const DivOne = styled.div`
     /* margin: 0 auto;  */
     /* background-color: orange;   */
 
+    img {
+        height: 600px;
+        width: 600px;
+        /* #007dfe */
+    }
     
     @media (max-width: 768px) {
         flex-direction: column;
