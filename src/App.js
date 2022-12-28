@@ -1,24 +1,42 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import styled from 'styled-components';
+import { BrowserRouter, Router, Link, Routes, Route } from "react-router-dom";
+import Navbar from './navbar.jsx';
+import Home from './home.jsx';
+import About from './about.jsx';
+import Resume from './resume.jsx';
+import Error404 from './error404.jsx';
 import './App.css';
+
+
+const Content = styled.div`
+  box-sizing: border-box;
+  background-color: yellow;
+`;
+
+const AppContent = styled.div`
+    /* background-size: contain;
+    background:url(${'black'});  */
+`;
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContent>
+      <BrowserRouter>
+        <Navbar />
+        {/* <Content> */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/error404" element={<Error404 />} />
+          </Routes>
+        {/* </Content> */}
+      </BrowserRouter>
+    </AppContent>
+    
+    
   );
 }
 

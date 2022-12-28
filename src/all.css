@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/* base styles */
+* {
+  font-family: "Quicksand";
+  /* color: #333; */
+  /* margin: 1rem; */
+  /* For TextField correct label alignment */
+  /* margin-inline-start: 0px; */
+
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto; 
+  margin-left: 250px;
+  margin-top: 2rem;
+  background-color: black;  
+  /* bg white if there is bg image */
+  /* border-bottom: 1px solid #f2f2f2; */
+  /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+  box-shadow: #354a53 0px 20px 30px -10px;
+  border-radius: 1rem;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: aqua;
+}
+
+.navbar a:hover {
+  color: #333;
+}
+
+/* .content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+} */
+
+/* .contentb {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px; 
+} */
+
+.photo {
+  padding: 20px;
+  height: 500px;
+  width: 100%;
+}
+
+.smallphoto {
+  padding: 1rem;
+  height: 30px;
+  width: 40px;
+  margin-right: 1rem;
+  margin-left: 35px;
+  border-radius: 1rem;
+  background-color: #425F57;  
+}
+
+.logo {
+  height: 140px;
+  width: 150px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+  padding: 0.1rem;
+  /* border-radius: 1rem; */
+}
+.logo:hover{
+  height: 140px;
+  width: 150px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+  padding: 0.1rem;
+  background-color: yellow;
+  /* -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
+.propic {
+  height: 100px;
+  width: 100px;
+  border-radius: 5rem;
+}
+.icon {
+  height: 40px;
+  width: 50px;
+}
+.entry{
+  padding: 10px;
+  /* display: flex; */
+  /* max-width: 1200px; */
+  margin: 0px; 
+  margin-left: 80px;
+  margin-right: 50px;
+  margin-top: 2.5rem;
+  /* color: wheat; */
+  color:  #425F57;
+  background-color: #CFFF8D;  
+  /* bg white if there is bg image */
+  /* border-bottom: 1px solid #f2f2f2; */
+  /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+  /* box-shadow: #354a53 -50px 20px 30px -10px; */
+  box-shadow: #425F57 -35px 25px 30px -20px;
+  border-radius: 1rem;
+}
+.entryHeading{
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.contactus{
+  padding: 10px;
+  /* display: flex; */
+  /* max-width: 1200px; */
+  margin: 0px; 
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 2.5rem;
+  color: 425F57 ;
+  background-color: #CFFF8D;  
+  /* bg white if there is bg image */
+  /* border-bottom: 1px solid #f2f2f2; */
+  /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+  /* box-shadow: #354a53 -50px 20px 30px -10px; */
+  box-shadow: #425F57 -35px 25px 30px -20px;
+  border-radius: 1rem;
+}
+
+.inputtag{
+  border-radius: 1rem;
+  padding: 10px;
+  height: 2rem;
+  width: 18rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border: 0px;
+}
+.inputmsg{
+  border-radius: 1rem;
+  padding: 22px;
+  font-size: large;
+  /* height: 5rem; */
+  /* width: 20rem; */
+  margin-top: 1rem;
+  text-align: center;
+  border: 0px;
+}
+/* .a {
+  text-decoration: none;
+} */
