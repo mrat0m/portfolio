@@ -9,10 +9,10 @@ import Error404 from './error404.jsx';
 import './App.css';
 
 
-const Content = styled.div`
-  box-sizing: border-box;
-  background-color: yellow;
-`;
+// const Content = styled.div`
+//   box-sizing: border-box;
+//   background-color: yellow;
+// `;
 
 const AppContent = styled.div`
     /* background-size: contain;
