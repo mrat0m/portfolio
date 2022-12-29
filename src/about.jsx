@@ -102,7 +102,7 @@ const About = () => {
         <Divone>
             hi<img src={waving} alt="" style={{margin: '0rem 0rem 0rem 1rem'}}/> I'm Clinston Antony,
 
-            <div className="entry">
+            {/* <div className="entry">
                 <h3 className='entryHeading'>MSc Cyber Security {"&"} Forensic Information Technology <i> [2023-Present] </i></h3>
                 student @ Univeristy of Portsmouth <GB title="United Kingdom" className="icon" />
                 <br />
@@ -110,7 +110,7 @@ const About = () => {
                 <div className="projects">
                     *No Projects*
                 </div>
-            </div>
+            </div> */}
             <div className="entry">
                 <h3 className='entryHeading'>Bachelor's in Computer Application <i> [2019-2022] </i></h3>
                 graduated from Rajagiri College of Management & Applied Sciences(RCMAS) <IN title="India" className="icon" />
