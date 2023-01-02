@@ -134,6 +134,7 @@ const About = () => {
                 <h3 className='entryHeading'>St.Aloysius Convent ISC School <i> [2005-2017] </i> <IN title="India" className="icon" /></h3>
                 High School
             </div>
+            <h1 ><hr style={{ backgroundColor: '#06283D  ', height: 5 }} /></h1>
             <h3 style={{ margin: '3rem 25rem' }} className='entryHeading'>Technical proficiency in</h3>
             {/* <h3 style={{ margin: '3rem 5rem' }} className='entryHeading'>Technical proficiency/ Skills</h3> */}
             <LogoContainer>
