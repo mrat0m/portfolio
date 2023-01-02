@@ -67,7 +67,7 @@
   margin-right: 1rem;
   margin-left: 35px;
   border-radius: 1rem;
-  background-color: #425F57;  
+  background-color: #DFF6FF  ;  
 }
 
 .logo {
@@ -101,6 +101,15 @@
 .icon {
   height: 40px;
   width: 50px;
+  /* margin-bottom: -0.5rem; */
+}
+.footericon {
+  height: 40px;
+  width: 50px;
+  background-color: #fff;
+  padding: 5%;
+  border-radius: 2.5rem;
+  border-radius: 0.7rem;
 }
 .entry{
   padding: 10px;
@@ -111,13 +120,13 @@
   margin-right: 50px;
   margin-top: 2.5rem;
   /* color: wheat; */
-  color:  #425F57;
-  background-color: #CFFF8D;  
+  color:  #06283D  ;
+  background-color: #DFF6FF;  
   /* bg white if there is bg image */
   /* border-bottom: 1px solid #f2f2f2; */
   /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
   /* box-shadow: #354a53 -50px 20px 30px -10px; */
-  box-shadow: #425F57 -35px 25px 30px -20px;
+  box-shadow: #84aab9   -35px 25px 30px -20px;
   border-radius: 1rem;
 }
 .entryHeading{
@@ -135,12 +144,12 @@
   margin-right: 250px;
   margin-top: 2.5rem;
   color: 425F57 ;
-  background-color: #CFFF8D;  
+  background-color: #DFF6FF;  
   /* bg white if there is bg image */
   /* border-bottom: 1px solid #f2f2f2; */
   /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
   /* box-shadow: #354a53 -50px 20px 30px -10px; */
-  box-shadow: #425F57 -35px 25px 30px -20px;
+  box-shadow: #06283D   -35px 25px 30px -20px;
   border-radius: 1rem;
 }
 

@@ -11,15 +11,17 @@ import email from './assets/icon/gmail.png';
 import githubicon from './assets/icon/github.png';
 import './all.css';
 
+// #adcddb image laptop color
 
 const DivOne = styled.div`
     width: 100%;
+    height: 641px;
     padding: 2rem;
     display: flex;
     align-items: center;
     box-sizing: border-box;
     /* margin: 0 auto;  */
-    /* background-color: orange;   */
+    background-color: #06283D;  
 
     
     @media (max-width: 768px) {
@@ -32,7 +34,6 @@ const DivOneLeft = styled.div`
     font-family: cursive;
     font-style: italic;
     /* font-size: xxx-large; */
-    
     /* background-color: pink;   */
 
     img {
@@ -64,9 +65,9 @@ const Button = styled.button`
     height: 50px;
     font-size: 21px;
     font-weight: bold;
-    color: #425F57;
+    color: #06283D  ;
     background-color: white;
-    border-color: #425F57;
+    border-color: #06283D  ;
     border-radius: 1rem;
 `;
 
@@ -82,14 +83,14 @@ const Home = () => {
                 <img src={qwerty} alt="" />
             </DivOneLeft>
             <DivOneRight>
-                <b style={{ color: "#425F57" }}> {"<"}\{">"} Welcome! {"<"}\{">"} </b>
+                <b style={{ color: "#DFF6FF  " }}> {"<"}\{">"} Welcome! {"<"}\{">"} </b>
 
                 <div>
                     <Link style={{ textDecoration: 'none' }} to="/about"><Button>About</Button></Link>
                     <Link style={{ textDecoration: 'none' }} to="/error404"><Button>Resume</Button></Link>
                 </div>
 
-                <i style={{ color: "#425F57" }}> {"<"}\{">"} Connect me via {"<"}\{">"} </i>
+                <i style={{ color: "#DFF6FF  " }}> {"<"}\{">"} Connect me via {"<"}\{">"} </i>
 
                 <div>
                     {icons.map((loadicon) => {

@@ -17,6 +17,7 @@ import './App.css';
 const AppContent = styled.div`
     /* background-size: contain;
     background:url(${'black'});  */
+    /* background-color: #61dafb; */
 `;
 
 

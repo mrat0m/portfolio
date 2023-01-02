@@ -75,9 +75,9 @@ const DivOne = styled.div`
 //     height: 50px;
 //     font-size: 21px;
 //     font-weight: bold;
-//     color: #425F57;
+//     color: #06283D  ;
 //     background-color: white;
-//     border-color: #425F57;
+//     border-color: #06283D  ;
 //     border-radius: 1rem;
 // `;
 
@@ -96,8 +96,8 @@ const Error404 = () => {
             </DivOneLeft> */}
             {/* <DivOneRight>
                 <div className='sss'>
-                <b style={{ color: "#425F57" }}> {"<"}\{">"} ERROR 404 </b>
-                <b style={{ color: "#425F57" }}> PAGE NOT FOUND {"<"}\{">"} </b>
+                <b style={{ color: "#06283D  " }}> {"<"}\{">"} ERROR 404 </b>
+                <b style={{ color: "#06283D  " }}> PAGE NOT FOUND {"<"}\{">"} </b>
                 </div>
                 <div>
                     <Link style={{ textDecoration: 'none' }} to="/"><Button> Redirect </Button></Link>

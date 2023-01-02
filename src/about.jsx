@@ -46,7 +46,7 @@ const Divone = styled.div`
     box-sizing: border-box;
     font-style: italic;
     font-size: 40px;
-    color: #425F57;
+    color: #06283D  ;
 `;
 
 const LogoContainer = styled.div`
@@ -71,7 +71,7 @@ const Logo = styled.div`
     border-radius: 1rem;
     background-color: #fff;
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
-    box-shadow: #425F57 10px 1px 5px 0px;
+    box-shadow: #829ea9   5px 1px 5px 0px;
 
     &:hover {
         height: 180px;
@@ -100,7 +100,9 @@ const Logo = styled.div`
 const About = () => {
     return <>
         <Divone>
-            hi<img src={waving} alt="" style={{margin: '0rem 0rem 0rem 1rem'}}/> I'm Clinston Antony,
+            hi,
+            {/* <img src={waving} alt="" style={{margin: '0rem 0rem 0rem 1rem'}}/>  */}
+            I'm Clinston Antony,
 
             {/* <div className="entry">
                 <h3 className='entryHeading'>MSc Cyber Security {"&"} Forensic Information Technology <i> [2023-Present] </i></h3>
@@ -238,7 +240,7 @@ const About = () => {
                 </Logo>
             </LogoContainer>
 
-            <h1 ><hr style={{ backgroundColor: '#425F57', height: 5 }} /></h1>
+            <h1 ><hr style={{ backgroundColor: '#06283D  ', height: 5 }} /></h1>
             <div className="contactus" align="center">
                 <h3 className='entryHeading'>Contact</h3>
                 {/* <i>e-mail: </i> */}
@@ -251,7 +253,7 @@ const About = () => {
                 <br />
                 <button mailto="">Send</button>
                 <br />
-                //store message  in a file with date-time
+                {/* //store message  in a file with date-time */}
             </div>
             <br />
         </Divone>

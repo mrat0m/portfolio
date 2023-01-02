@@ -5,12 +5,12 @@ import email from './assets/icon/gmail.png';
 import githubicon from './assets/icon/github.png';
 
 const Divfooter = styled.div`
-  background-color: #425F57;
+  background-color: #06283D  ;
   /* padding: 0.2rem; */
   padding: 1rem 0rem 0.5rem ;
   gap: 1rem;
   display: flex;
-  color: #CFFF8D;
+  color: #DFF6FF;
   justify-content: center;
 `;
 
@@ -27,7 +27,7 @@ const Footer = () => {
             {icons.map((loadicon) => {
                 // console.log(personalDetails)
                 return <a href={loadicon.url}>
-                    <img src={loadicon.logo} className="icon" alt="" />
+                    <img src={loadicon.logo} className="footericon" alt="" />
                 </a>
             })}
         </Divfooter>

@@ -6,7 +6,7 @@ import './all.css';
 // import { Button } from '@mui/material';
 
 const Heading = styled.h1`
-    color: #425F57;
+    color: #06283D  ;
     /* background-color: #474747; */
     font-family: cursive;
     font-style: italic;
@@ -35,9 +35,11 @@ const LinkRight = styled.div`
 const Button = styled.button`
     width: 130px;
     height: 30px;
-    color: #CFFF8D;
+    color: #DFF6FF;
     border-radius: 1rem;  
-    background-color: #425F57;
+    border-width: 0;
+    /* border-color: #DFF6FF; */
+    background-color: #06283D  ;
 `;
 const Navbar = () => {
     // const name = ' Clinston_Antony_Parappillil_Sony ';
