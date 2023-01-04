@@ -95,7 +95,7 @@ const Home = () => {
                 <div>
                     {icons.map((loadicon) => {
                         // console.log(personalDetails)
-                        return <a href={loadicon.url}>
+                        return <a href={loadicon.url} target="_blank" rel="noopener noreferrer">
                             <img src={loadicon.logo} className="smallphoto" alt="" />
                         </a>
                     })}
