@@ -35,7 +35,7 @@ const DivOneLeft = styled.div`
     font-style: italic;
     /* font-size: xxx-large; */
     /* background-color: pink;   */
-
+    
     img {
         height: 100%;
         width: 100%;
@@ -48,7 +48,7 @@ const DivOneRight = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    font-size: 30px;
+    font-size: 35px;
     font-family: cursive;
     font-style: italic;
     /* font-size: 40px; */
