@@ -100,9 +100,9 @@ const Logo = styled.div`
 const About = () => {
     return <>
         <Divone>
-            hi,
+            hi, I'm Clinston Antony,
             {/* <img src={waving} alt="" style={{margin: '0rem 0rem 0rem 1rem'}}/>  */}
-            I'm Clinston Antony,
+            {/* I'm Clinston Antony, */}
 
             {/* <div className="entry">
                 <h3 className='entryHeading'>MSc Cyber Security {"&"} Forensic Information Technology <i> [2023-Present] *</i></h3>
