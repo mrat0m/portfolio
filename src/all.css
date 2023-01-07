@@ -149,7 +149,8 @@
   /* border-bottom: 1px solid #f2f2f2; */
   /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
   /* box-shadow: #354a53 -50px 20px 30px -10px; */
-  box-shadow: #06283D   -35px 25px 30px -20px;
+  /* box-shadow: #06283D   -35px 25px 30px -20px; */
+  box-shadow: #84aab9   -35px 25px 30px -20px;
   border-radius: 1rem;
 }
 
