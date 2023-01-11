@@ -108,8 +108,8 @@ const About = () => {
                 <h3 className='entryHeading'>MSc Cyber Security {"&"} Forensic Information Technology <i> [2023-Present] *</i></h3>
                 student @ Univeristy of Portsmouth <GB title="United Kingdom" className="icon" />
                 <br />
-                <b><u>Projects</u> (0)</b>
-                {/* <div className="projects">
+                {/* <b><u>Projects</u> (0)</b>
+                <div className="projects">
                     *No Projects*
                 </div> */}
             </div>
