@@ -7,6 +7,7 @@ import About from './about.jsx';
 import Resume from './resume.jsx';
 import Error404 from './error404.jsx';
 import './App.css';
+import Contact from './contact.jsx';
 
 
 // const Content = styled.div`
@@ -30,6 +31,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/error404" element={<Error404 />} />
           </Routes>

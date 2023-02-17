@@ -6,6 +6,7 @@
 // import { BrowserRouter, Router, Link, Routes, Route } from "react-router-dom";
 import styled from 'styled-components';
 import Footer from './footer';
+import Contact from './contact';
 import './all.css';
 import waving from './assets/icon/waving.png';
 import { GB, IN } from 'country-flag-icons/react/3x2';
@@ -242,22 +243,7 @@ const About = () => {
             </LogoContainer>
 
             <h1 ><hr style={{ backgroundColor: '#06283D  ', height: 5 }} /></h1>
-            <div className="contactus" align="center">
-                <form name="contact" method="POST" data-netlify="true"> 
-                    <h3 className='entryHeading'>Contact</h3>
-                    {/* <i>e-mail: </i> */}
-                    <input type='email' className='inputtag' name="email" placeholder='e-mail' required />
-                    <br />
-                    <input type='text' className='inputtag' name="name" placeholder='Your_Name' required />
-                    <br />
-                    {/* <i>Message: </i> */}
-                    <textarea type='text' className='inputmsg' name="message" placeholder='Please enter your message here...' required rows={4} cols={30} />
-                    <br />
-                    <button type="submit">Send</button>
-                    <br />
-                    {/* //store message  in a file with date-time */}
-                </form>
-            </div>
+            <Contact></Contact>
             <br />
         </Divone>
         <Footer></Footer>

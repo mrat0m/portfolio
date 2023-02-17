@@ -87,7 +87,7 @@ const Home = () => {
 
                 <div>
                     <Link style={{ textDecoration: 'none' }} to="/about"><Button>About</Button></Link>
-                    <Link style={{ textDecoration: 'none' }} to="/error404"><Button>Resume</Button></Link>
+                    {/* <Link style={{ textDecoration: 'none' }} to="/error404"><Button>Resume</Button></Link> */}
                 </div>
 
                 <i style={{ color: "#DFF6FF  " }}> {"<"}\{">"} Connect me via {"<"}\{">"} </i>

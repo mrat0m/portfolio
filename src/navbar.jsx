@@ -56,7 +56,8 @@ const Navbar = () => {
             </LinkLeft>
             <LinkRight>
                 <Link style={{ textDecoration: 'none' }} to="/about"><Button>About</Button></Link>
-                <Link style={{ textDecoration: 'none' }} to="/error404"><Button>Resume</Button></Link>
+                <Link style={{ textDecoration: 'none' }} to="/contact"><Button>Contact</Button></Link>
+                {/* <Link style={{ textDecoration: 'none' }} to="/error404"><Button>Resume</Button></Link> */}
                 {/* <Link style={{ textDecoration: 'none' }} to="/resume"><Button>Resume</Button></Link> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
             </LinkRight>
             {/* <LinkRight>
