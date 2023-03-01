@@ -10,6 +10,7 @@ import Contact from './contact';
 import './all.css';
 import waving from './assets/icon/waving.png';
 import { GB, IN } from 'country-flag-icons/react/3x2';
+import linux from './assets/logo/linux.png';
 import react from './assets/logo/react.png';
 import nodejs from './assets/logo/nodejs.png';
 import js from './assets/logo/js.png';
@@ -139,6 +140,10 @@ const About = () => {
             <h3 style={{ margin: '3rem 25rem' }} className='entryHeading'>Technical proficiency in</h3>
             {/* <h3 style={{ margin: '3rem 5rem' }} className='entryHeading'>Technical proficiency/ Skills</h3> */}
             <LogoContainer>
+                <Logo>
+                    <img src={linux} />
+                    <span>Linux</span>
+                </Logo>
                 <Logo>
                     <img src={react} />
                     <span>React JS</span>

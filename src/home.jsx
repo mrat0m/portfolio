@@ -15,8 +15,8 @@ import './all.css';
 
 const DivOne = styled.div`
     width: 100%;
-    height: 641px;
-    padding: 2rem;
+    /* height: 641px; */
+    padding: 5rem;
     display: flex;
     align-items: center;
     box-sizing: border-box;
