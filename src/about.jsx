@@ -98,14 +98,15 @@ const Logo = styled.div`
         font-family: "Helvetica Neue",Helvetica;
     }
 `;
-  
+
 const About = () => {
     return <>
         <Divone>
             hi, I'm Clinston Antony,
             {/* <img src={waving} alt="" style={{margin: '0rem 0rem 0rem 1rem'}}/>  */}
             {/* I'm Clinston Antony, */}
-
+            
+            {/* nav button on click come top else like in order */}
             <div className="entry">
                 <h3 className='entryHeading'>MSc Cyber Security {"&"} Forensic Information Technology <i> [2023-Present] *</i></h3>
                 student @ Univeristy of Portsmouth <GB title="United Kingdom" className="icon" />
@@ -255,7 +256,7 @@ const About = () => {
         <Footer></Footer>
 
     </>
-    
+
 }
 
 export default About;
