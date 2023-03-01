@@ -134,7 +134,7 @@ const About = () => {
             </div>
             <div className="entry">
                 <h3 className='entryHeading'>St.Aloysius Convent ISC School <i> [2005-2017] </i> <IN title="India" className="icon" /></h3>
-                High School
+                High School(ICSE)
             </div>
             <h1 ><hr style={{ backgroundColor: '#06283D  ', height: 5 }} /></h1>
             <h3 style={{ margin: '3rem 25rem' }} className='entryHeading'>Technical proficiency in</h3>
@@ -176,6 +176,7 @@ const About = () => {
                 </Logo>
                 <Logo>
                     <img src={rfh} />
+                    <span>React Hook</span>
                     {/* <marquee>
                     <span>React Form Hooks</span>
                     </marquee> */}
