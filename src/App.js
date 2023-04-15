@@ -8,6 +8,7 @@ import Resume from './resume.jsx';
 import Error404 from './error404.jsx';
 import './App.css';
 import Contact from './contact.jsx';
+import Login from './login.jsx';
 
 
 // const Content = styled.div`
@@ -34,6 +35,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/error404" element={<Error404 />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
         {/* </Content> */}
       </BrowserRouter>
