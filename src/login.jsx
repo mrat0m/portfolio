@@ -49,10 +49,10 @@ const Login = () => {
             <form name="login" method="GET" data-netlify="true">
                 <Base>Verify Login</Base>
                 <Base>
-                    <input type='text' className='inputtag' name="OTP" placeholder='OTP' min="6" max="6" required />
+                    <input type='number' className='inputtag' name="OTP" placeholder='OTP' min="6" max="6" required />
                 </Base>
                 <Base>
-                    <input type='text' className='inputtag' name="confirmOTP" placeholder='Re-enter OTP' min="6" max="6" required />
+                    <input type='number' className='inputtag' name="confirmOTP" placeholder='Re-enter OTP' min="6" max="6" required />
                 </Base>
                 <Btn>
                     {/* <button type="submit" className="btn-login">Login</button> */}
