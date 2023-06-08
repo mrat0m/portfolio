@@ -51,9 +51,9 @@ const Login = () => {
                 <Base>
                     <input type='number' className='inputtag' name="OTP" placeholder='OTP' min="6" max="6" required />
                 </Base>
-                <Base>
+                {/* <Base>
                     <input type='number' className='inputtag' name="confirmOTP" placeholder='Re-enter OTP' min="6" max="6" required />
-                </Base>
+                </Base> */}
                 <Btn>
                     {/* <button type="submit" className="btn-login">Login</button> */}
                     LogIn
