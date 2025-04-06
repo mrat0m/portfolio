@@ -73,7 +73,7 @@ const Button = styled.button`
 
 const Home = () => {
     const [icons, setIcons] = useState([
-        { logo: linkedin, url: 'https://www.linkedin.com/in/clinston-antony-16560b238/' },
+        { logo: linkedin, url: 'https://www.linkedin.com/in/clinston-antony-parappillil-sony-16560b238/' },
         { logo: email, url: 'mailto:clintusony@gmail.com' },
         { logo: githubicon, url: 'https://github.com/mrat0m/' }
     ])
