@@ -111,7 +111,7 @@ const About = () => {
                 <h3 className='entryHeading'>MSc Cyber Security {"&"} Forensic Information Technology <i> [2023-2024] </i></h3>
                 student @ Univeristy of Portsmouth <GB title="United Kingdom" className="icon" />
                 <br />
-                <b><u>Project</u> (0)</b>
+                <b><u>Masters Project</u></b>
                 <div className="projects">
                     A Comprehensive Study of Intrusion Detection System Software and Security Information Event Management Solutions
                 </div>
