@@ -108,13 +108,13 @@ const About = () => {
             
             {/* nav button on click come top else like in order */}
             <div className="entry">
-                <h3 className='entryHeading'>MSc Cyber Security {"&"} Forensic Information Technology <i> [2023-Present] *</i></h3>
+                <h3 className='entryHeading'>MSc Cyber Security {"&"} Forensic Information Technology <i> [2023-2024] </i></h3>
                 student @ Univeristy of Portsmouth <GB title="United Kingdom" className="icon" />
                 <br />
-                {/* <b><u>Projects</u> (0)</b>
+                <b><u>Project</u> (0)</b>
                 <div className="projects">
-                    *No Projects*
-                </div> */}
+                    A Comprehensive Study of Intrusion Detection System Software and Security Information Event Management Solutions
+                </div>
             </div>
             <div className="entry">
                 <h3 className='entryHeading'>Bachelor's in Computer Application <i> [2019-2022] </i></h3>
