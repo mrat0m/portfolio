@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('the homepage CV link opens the printable CV route', () => {
+  window.scrollTo = jest.fn();
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: 'View my CV' }).getAttribute('href')).toBe('/resume');
 });
